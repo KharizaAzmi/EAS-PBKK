@@ -21,7 +21,7 @@ class CreateEmployeesTable extends Migration
             // $table->string('email')->nullable()->unique();
             $table->string('pin_code')->nullable();
             $table->text('permissions')->nullable();
-            $table->timestamp('email_verified_at')->nullable();
+            // $table->timestamp('email_verified_at')->nullable();
             $table->rememberToken();
             $table->timestamps();
         });

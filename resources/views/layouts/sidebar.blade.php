@@ -10,7 +10,7 @@
                         <ul class="metismenu" id="side-menu">
                             <li class="menu-title">Main</li>
                             <li class="">
-                                <a href="{{route('admin')}}" class="waves-effect {{ request()->is("admin") || request()->is("admin/*") ? "mm active" : "" }}" style="color: #2B3270">
+                                <a href="{{route('admin')}}" class="waves-effect {{ request()->is("admin") || request()->is("admin/*") ? "mm active" : "" }}" >
                                     <i class="ti-home" style="color: white;"></i> <span style="color: white;"> Dashboard </span>
                                 </a>
                             </li>
